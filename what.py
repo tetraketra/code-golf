@@ -80,7 +80,6 @@ import random
 
 # ==========
 
-# print((lambda x: x + 1)(20))
 # var: print((lambda f: [f.read(), f.close()][0])(open(__file__, "r"))) = None
 # print(get_type_hints(__main__))
 
@@ -137,12 +136,11 @@ class ex():
 
 # # ==========
 
+# e = 10
 
-e = 10
+# try:
+#     1/0
+# except ZeroDivisionError as e:
+#     print(e)
 
-try:
-    1/0
-except ZeroDivisionError as b:
-    print()
-
-print(b)
+# print(e)
